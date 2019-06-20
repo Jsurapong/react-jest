@@ -1,5 +1,7 @@
 # What is TDD
 
+https://blog.usejournal.com/tdd-your-react-components-8c8ad60ce2cc
+
 # What is Jest and Enzyme
 
     - Jest is a Javascript unit testing framework, used by Facebook to test services  and React applications.
