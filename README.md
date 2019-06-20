@@ -1,5 +1,3 @@
-# Jest knowledge sharing 12:30 พรุ่งนีครับ
-
 # What is TDD
 
 # What is Jest and Enzyme
