@@ -1,6 +1,8 @@
 # What is TDD
 
+https://www.valentinog.com/blog/testing-react/
 https://blog.usejournal.com/tdd-your-react-components-8c8ad60ce2cc
+https://medium.com/@qjli/how-to-mock-specific-module-function-in-jest-715e39a391f4
 
 # What is Jest and Enzyme
 
@@ -24,11 +26,11 @@ https://blog.usejournal.com/tdd-your-react-components-8c8ad60ce2cc
    };
 
 3) run yarn test
-   -Console Show "No tests found, exiting with code 1"
+   - Console Show "No tests found, exiting with code 1"
 
 #
 
-# Using Matchers
+# Using MatchersS
 
 - ex. Mockchers.test.js
 
