@@ -1,8 +1,8 @@
 # What is TDD
 
-https://www.valentinog.com/blog/testing-react/
-https://blog.usejournal.com/tdd-your-react-components-8c8ad60ce2cc
-https://medium.com/@qjli/how-to-mock-specific-module-function-in-jest-715e39a391f4
+- https://www.valentinog.com/blog/testing-react/
+- https://blog.usejournal.com/tdd-your-react-components-8c8ad60ce2cc
+- https://medium.com/@qjli/how-to-mock-specific-module-function-in-jest-715e39a391f4
 
 # What is Jest and Enzyme
 
@@ -11,27 +11,19 @@ https://medium.com/@qjli/how-to-mock-specific-module-function-in-jest-715e39a391
 
 # Setup Jest
 
-1. yarn add --dev
-   jest
-   babel-jest
-   @babel/preset-env
-   @babel/preset-react
-   @babel/plugin-transform-runtime
-   react-test-renderer
+1. Add Jest
 
-2. setup package.json
-   {
-   "test" : "jest"
-   }
+- yarn add --dev jest babel-jest @babel/preset-env @babel/preset-react @babel/plugin-transform-runtime react-test-renderer
 
-3. setup babel.config.js
+2. Set package.json
 
-   module.exports = {
-   presets: ['@babel/preset-env', '@babel/preset-react'],
-   plugins: ['@babel/plugin-transform-runtime']
-   };
+   - {"test" : "jest"}
 
-4. run yarn test
+3. Setup babel.config.js
+
+   - module.exports = {presets: ['@babel/preset-env', '@babel/preset-react'],plugins: ['@babel/plugin-transform-runtime']};
+
+4. Run yarn test
    - Console Show "No tests found, exiting with code 1"
 
 #
