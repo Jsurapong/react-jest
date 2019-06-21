@@ -19,28 +19,34 @@ https://medium.com/@qjli/how-to-mock-specific-module-function-in-jest-715e39a391
    @babel/plugin-transform-runtime
    react-test-renderer
 
-2. setup babel.config.js
+2. setup package.json
+   {
+   "test" : "jest"
+   }
+
+3. setup babel.config.js
+
    module.exports = {
    presets: ['@babel/preset-env', '@babel/preset-react'],
    plugins: ['@babel/plugin-transform-runtime']
    };
 
-3) run yarn test
+4. run yarn test
    - Console Show "No tests found, exiting with code 1"
 
 #
 
 # Using MatchersS
 
-- ex. Mockchers.test.js
+    - ex. Mockchers.test.js
 
 # Snapshots: compare render() output of components to an expected result.
 
-- ex. Link.react.test.js
+    - ex. Link.react.test.js
 
 # Simulating Event
 
-- ex. Simulator.test.js
+    -  ex. Simulator.test.js
 
 # In the real world
 
