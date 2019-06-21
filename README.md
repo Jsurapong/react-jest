@@ -13,7 +13,7 @@
 
 1. Add Jest
 
-- yarn add --dev jest babel-jest @babel/preset-env @babel/preset-react @babel/plugin-transform-runtime react-test-renderer
+   - yarn add --dev jest babel-jest @babel/preset-env @babel/preset-react @babel/plugin-transform-runtime react-test-renderer
 
 2. Set package.json
 
@@ -24,6 +24,7 @@
    - module.exports = {presets: ['@babel/preset-env', '@babel/preset-react'],plugins: ['@babel/plugin-transform-runtime']};
 
 4. Run yarn test
+
    - Console Show "No tests found, exiting with code 1"
 
 #
